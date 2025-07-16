@@ -63,7 +63,7 @@ public class forAnidados {
 
         Comprendido el punto, voy a hacer un ejercicio con for anidados, en donde se muestre mi nombre, edad y cosas
         que se me vayan ocurriendo, remitiendome a la metodología de los actores del metodo, ser y actuar como ese personaje,
-        pensarlo, entenderlo. Así que a continuación este ejercicio
+        pensarlo, entenderlo xD. Así que a continuación este ejercicio
         */
 
         System.out.println("SIENDO UN ACTOR DEL METODO: SOY UN FOR ANIDADO");
