@@ -295,7 +295,7 @@ public class claseString {
             System.out.println(arreglo2[i] + " = " + i);
         }
 
-        String persona= "Alfredo Leal";
+        String persona= "Luis Hernandez";
         System.out.println(persona.substring(8));
     }
 
