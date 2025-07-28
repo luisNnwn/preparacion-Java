@@ -101,6 +101,31 @@ public class Arreglos {
         for (int valor = 0; valor < arregloOriginal.length; valor++) {
             System.out.println("Arreglo modificado = " + arregloOriginal[valor]);
         }
+
+        /*Algo que logre entender y que escribí al principio
+        * es que al imprimir el valor aun cuando ya ha sido afectado
+        * a través de la función parece que no cambia, pero, en realidd
+        * lo que cambia es una copia del objeto.
+        *
+        * En cambio al paso de parámetros lo que uno afecta
+        * es el objeto directamente, por lo que uno cambia las formas
+        * de las cosas directamente.*/
+
+
+        /*BUSQUEDA LINEAL*/
+        //int arregloOriginal [] = {1,2,3,4,5};
+        int arregloBusqueda[] = {1,2,3,4,5};
+        busquedaLinealArreglos busqueda = new busquedaLinealArreglos();
+        int valorBuscar = 3;
+        int elementoEncontrado = busqueda.linearSearch(valorBuscar,arregloBusqueda);
+        if (elementoEncontrado != 1) {
+            System.out.println("Elemento encontrado = " + elementoEncontrado);
+        } else {
+            System.out.println("Elemento no encontrado");
+        }
+
+
+
     }
 
 }
