@@ -13,6 +13,19 @@ public class stringBuilder {
         long  end = System.currentTimeMillis();
         System.out.println("Tiempo de StringBuilder " + (end-start));
 
+        int arreglo [] = {1, 2, 3, 4, 5, 6};
+
+
+        int bajo = 0;
+        int alto = arreglo.length - 1;
+        int medio = (alto + bajo) / 2;
+
+
+        System.out.println(arreglo.length);
+        System.out.println(bajo);
+        System.out.println(medio);
+
+
 
     }
 

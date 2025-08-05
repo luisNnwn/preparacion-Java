@@ -118,7 +118,7 @@ public class whileCiclo {
             * Hacer quimica -
             * mientras sea bien hecha
             * o reevaluarse
-            * */
+<            * */
 
     }
 
