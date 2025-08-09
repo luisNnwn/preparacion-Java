@@ -34,6 +34,7 @@ public class matrices {
 
         /*En java las matrices pueden ser irregulares, otsea, vemos filas con diferente
         * cantidad de columnas*/
+
         int matriz [] [] = {{1,2}, {3,4,5}};
 
         /*Con los for anidados se recorre la matriz*/
@@ -45,6 +46,7 @@ public class matrices {
         * j = 0 imprime 10 = 3
         * j = 1 imprime 11 = 4
         * j = 2 imprime 12 = 5*/
+
         for (int i = 0; i < matriz.length; i++){ //recorre las filas
             for (int j = 0; j < matriz[i].length; j++){ //recorre las columnas
                 System.out.println("matriz = " + matriz[i][j]);
@@ -66,7 +68,8 @@ public class matrices {
                 }
             }
         }
-        System.out.println("La baja calificacion es: " + bajaCalificacion);
-    }
 
+        System.out.println("La baja calificacion es: " + bajaCalificacion);
+
+    }
 }
